@@ -1,0 +1,6 @@
+.Photos img {
+  width: 210px;
+  height: 130px;
+  padding: 10px;
+  cursor: pointer;
+}
