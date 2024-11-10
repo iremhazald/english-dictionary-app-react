@@ -2,4 +2,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/149/896/original/Pink_Playful_Cute_Search_Bar_School_Dictionary_Instagram_Post_%282%29.png?1731229529");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
