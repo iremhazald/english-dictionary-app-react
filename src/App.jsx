@@ -15,6 +15,24 @@ function App() {
       <main>
         <Dictionary />
       </main>
+      <footer>
+        This project was coded by Irem Hazal Deveci and is{" "}
+        <a
+          href="https://github.com/iremhazald/english-dictionary-app-react"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          open-sourced on GitHub
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://darling-platypus-198dc3.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          hosted on Netlify
+        </a>
+      </footer>
     </div>
   );
 }

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&family=DynaPuff:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&display=swap");
+
+.Meaning h3 {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ff7aa2;
+  font-size: 20px;
+  margin: 10px 0px;
+  text-decoration: underline;
+}
+
+.Meaning strong {
+  color: #875e88;
+}
+
+.Meaning .example {
+  font-size: 12px;
+  font-style: italic;
+}

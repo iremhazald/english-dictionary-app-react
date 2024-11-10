@@ -1,7 +1,27 @@
 .Dictionary form .searchBox {
-  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/149/731/original/Beige_and_Orange_Creative_Dictionary_Book_Instagram_Post_%282%29.png?1731015780");
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/149/906/original/Pink_Pastel_Watercolor_Self_Love_Dictionary_Word_Definition_Instagram_Post_%281%29.png?1731243479");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  text-indent: 25px;
+  padding: 20px 45px;
+  padding-left: 55px; /* text-indent yerine padding-left kullanıldı */
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.Dictionary form .searchButton {
+  padding: 20px 45px;
+  font-size: 16px;
+  border: none;
+  border-left: 4px dashed#FFE0F0;
+  background-color: #ff7aa2;
+  color: white;
+}
+
+.Dictionary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -28,14 +28,16 @@ export default function Dictionary() {
         <input
           className="searchBox"
           type="search"
-          placeholder="Type a word.."
-          autoFocus={true}
+          placeholder="Type a word..."
           onChange={handleKeywordChange}
         />
-        <input type="submit" value="Search" />
+        <input className="searchButton" type="submit" value="Search" />
       </form>
       <br />
-      <Results results={results} />
+      <section>
+        {" "}
+        <Results results={results} />
+      </section>
     </div>
   );
 }
