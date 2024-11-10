@@ -13,7 +13,7 @@ function App() {
         <img className="App-logo img-fluid" src={logo4} alt="logo" />
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="react" />
       </main>
       <footer>
         This project was coded by Irem Hazal Deveci and is{" "}
